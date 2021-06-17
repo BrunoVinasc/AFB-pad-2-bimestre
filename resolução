@@ -35,10 +35,7 @@ var someFN = function(numero)
     console.log("Third call", counter(5))
 
 //questao 3
-
-function calculator(n1, n2) {
-  return callback => callback(n1, n2)
-}
+//não sei
 
  //questao 4
 
@@ -57,14 +54,13 @@ console.log(b)
 
 //questao 5
 
-function num(numero)
+function multiplicar(numero)
 {
-  for(var i = 1; i <= 10; ++i)
-  {
-    console.log(i * numero)
-    
-  }
+     for(var i = 1; i < 10; i++)
+     {
+         console.log(i * numero)
+     }
 }
-num(2) 
+console.log(multiplicar(2))
 
 
